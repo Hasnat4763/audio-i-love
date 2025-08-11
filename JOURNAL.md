@@ -13,3 +13,17 @@ I had worked before with PCM2912A but my skills were not that good so this time 
 
 
 **Total time spent: 0.5h**
+
+
+# August 11th: Finished Schematic (For Now)
+
+I had learnt from some past mistakes and with help from whatware I finally finished the schematic and worked on the PCB a bit
+
+<img width="1027" height="734" alt="image" src="https://github.com/user-attachments/assets/1f998267-eab8-41a8-9736-3572653ce2d5" />
+
+<img width="467" height="777" alt="image" src="https://github.com/user-attachments/assets/2e79a0a7-a6ed-457b-978d-f159da8ea04c" />
+
+
+<img width="624" height="752" alt="image" src="https://github.com/user-attachments/assets/e35975ec-a654-451d-a37f-1e61f39f9c3e" />
+
+**Total time spent: 2.5h**

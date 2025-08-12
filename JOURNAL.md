@@ -27,3 +27,15 @@ I had learnt from some past mistakes and with help from whatware I finally finis
 <img width="624" height="752" alt="image" src="https://github.com/user-attachments/assets/e35975ec-a654-451d-a37f-1e61f39f9c3e" />
 
 **Total time spent: 2.5h**
+
+
+# August 12th: Finished Schematic And PCB
+
+I had forgot to wire the mic bias circuit so I had to do it
+I also prettied up the PCB with some silkscreens
+
+<img width="1336" height="742" alt="Screenshot 2025-08-12 095936" src="https://github.com/user-attachments/assets/ef91b452-6a28-48d0-a096-3d74410f0036" />
+
+<img width="335" height="538" alt="Screenshot 2025-08-12 100038" src="https://github.com/user-attachments/assets/fd652b89-e337-436f-ba39-833fe47b4549" />
+
+**Total time spent: 1h**

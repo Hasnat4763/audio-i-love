@@ -39,3 +39,11 @@ I also prettied up the PCB with some silkscreens
 <img width="335" height="538" alt="Screenshot 2025-08-12 100038" src="https://github.com/user-attachments/assets/fd652b89-e337-436f-ba39-833fe47b4549" />
 
 **Total time spent: 1h**
+
+# August 18th: Editing the PCB a bit and prepping to submit
+
+I moved the USB connector From bottom to top layer of the PCB and Changed the USB port.
+
+<img width="417" height="720" alt="image" src="https://github.com/user-attachments/assets/875de5e1-c239-4354-bfb3-75894f854511" />
+
+**Total time spent: 0.5h**

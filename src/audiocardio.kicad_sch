@@ -1152,189 +1152,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2583,12 +2400,6 @@
 		(uuid "2355b3a6-a42b-4bcd-bc1f-38909bbd2614")
 	)
 	(junction
-		(at 158.75 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b0e7b6e-ed7b-417e-94bb-9e5ac0c2f6de")
-	)
-	(junction
 		(at 355.6 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2754,16 +2565,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 100.33) (xy 151.13 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ab3293b-17cb-4e36-a0bc-b92e137be531")
-	)
-	(wire
-		(pts
 			(xy 372.11 59.69) (xy 372.11 58.42)
 		)
 		(stroke
@@ -2781,16 +2582,6 @@
 			(type default)
 		)
 		(uuid "224ab441-9e12-4d9d-9db4-3d4f131f19e9")
-	)
-	(wire
-		(pts
-			(xy 147.32 111.76) (xy 151.13 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24addcda-f95f-4b39-be07-47946cd5a46a")
 	)
 	(wire
 		(pts
@@ -2851,6 +2642,16 @@
 			(type default)
 		)
 		(uuid "4de5df85-1975-4ca3-8f5c-8d4c8969ce6f")
+	)
+	(wire
+		(pts
+			(xy 401.32 52.07) (xy 396.24 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e205338-4a4d-4a67-8355-7993ad478805")
 	)
 	(wire
 		(pts
@@ -2961,16 +2762,6 @@
 			(type default)
 		)
 		(uuid "8476ec4f-66ce-4c10-8ece-26659d855417")
-	)
-	(wire
-		(pts
-			(xy 158.75 100.33) (xy 158.75 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c22e887-1988-463c-bc38-4f23ca2f81d1")
 	)
 	(wire
 		(pts
@@ -3114,6 +2905,16 @@
 	)
 	(wire
 		(pts
+			(xy 360.68 52.07) (xy 365.76 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed3c4f4d-8268-4c3e-92b6-03452f904d45")
+	)
+	(wire
+		(pts
 			(xy 168.91 35.56) (xy 168.91 46.99)
 		)
 		(stroke
@@ -3144,7 +2945,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 54.61) (xy 365.76 52.07)
+			(xy 360.68 53.34) (xy 360.68 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3466,28 +3267,6 @@
 			)
 		)
 	)
-	(global_label "REC"
-		(shape input)
-		(at 139.7 100.33 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "43251f7f-8f9a-48e4-82dc-1c4a2e98228f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.0258 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "FL"
 		(shape input)
 		(at 40.64 55.88 180)
@@ -3616,28 +3395,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PLAY"
-		(shape input)
-		(at 139.7 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "746a807b-1e35-488a-b02a-becde827c7d0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.2395 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -4288,7 +4045,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 220.218 45.72 90)
 			(effects
 				(font
@@ -4356,7 +4113,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm"
 			(at 194.6148 166.37 0)
 			(effects
 				(font
@@ -4470,83 +4227,6 @@
 			(project ""
 				(path "/b4dc04d8-d03c-4561-9ffc-1b5a0705847e"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 154.94 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19595682-2814-4af7-93b4-5bcf24084512")
-		(property "Reference" "D2"
-			(at 153.3525 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 153.3525 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 154.94 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 154.94 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 154.94 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aec1181e-cab6-4111-91c1-55e2aa546d4e")
-		)
-		(pin "2"
-			(uuid "d73696bf-9b99-4463-8bd5-5ebcf75c7ae4")
-		)
-		(instances
-			(project "audiocardio"
-				(path "/b4dc04d8-d03c-4561-9ffc-1b5a0705847e"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -5019,7 +4699,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 365.76 54.61 0)
+		(at 360.68 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5028,7 +4708,7 @@
 		(fields_autoplaced yes)
 		(uuid "44f2e990-de56-478b-9dfb-3d6301b321ec")
 		(property "Reference" "#PWR016"
-			(at 365.76 60.96 0)
+			(at 360.68 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5037,7 +4717,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 365.76 59.69 0)
+			(at 360.68 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5045,7 +4725,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 365.76 54.61 0)
+			(at 360.68 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5054,7 +4734,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 365.76 54.61 0)
+			(at 360.68 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5063,7 +4743,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 365.76 54.61 0)
+			(at 360.68 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5078,83 +4758,6 @@
 			(project "audiocardio"
 				(path "/b4dc04d8-d03c-4561-9ffc-1b5a0705847e"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 154.94 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d2b7ce3-2df4-4139-a014-1610eed43cdc")
-		(property "Reference" "D1"
-			(at 153.3525 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 153.3525 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 154.94 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 154.94 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 154.94 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "364c0f71-fc0f-44a8-95b6-361fd62362a9")
-		)
-		(pin "2"
-			(uuid "6214c26f-e321-4ad0-a7da-467bf6f279ca")
-		)
-		(instances
-			(project ""
-				(path "/b4dc04d8-d03c-4561-9ffc-1b5a0705847e"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -5256,7 +4859,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 369.57 53.848 90)
 			(effects
 				(font
@@ -5293,74 +4896,6 @@
 			(project "audiocardio"
 				(path "/b4dc04d8-d03c-4561-9ffc-1b5a0705847e"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 143.51 111.76 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53be324c-b6ee-4d4c-89d0-a0d1eae99cb3")
-		(property "Reference" "R11"
-			(at 143.51 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3k"
-			(at 143.51 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 143.51 113.538 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 143.51 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d54ed296-f75c-480d-bbaf-334f4bacf7b1")
-		)
-		(pin "1"
-			(uuid "cc685534-d7e2-4b4b-8c93-546651cf29ff")
-		)
-		(instances
-			(project "audiocardio"
-				(path "/b4dc04d8-d03c-4561-9ffc-1b5a0705847e"
-					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5733,7 +5268,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 392.43 53.848 90)
 			(effects
 				(font
@@ -5770,72 +5305,6 @@
 			(project "audiocardio"
 				(path "/b4dc04d8-d03c-4561-9ffc-1b5a0705847e"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 158.75 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "76f0499c-2f57-4fd6-8301-5f4df4ba79c1")
-		(property "Reference" "#PWR08"
-			(at 158.75 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 158.75 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 158.75 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e39ffc2b-57a6-48a0-8215-fa4e325fd20c")
-		)
-		(instances
-			(project "audiocardio"
-				(path "/b4dc04d8-d03c-4561-9ffc-1b5a0705847e"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6077,7 +5546,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 57.15 148.082 90)
 			(effects
 				(font
@@ -6349,7 +5818,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 369.57 33.528 90)
 			(effects
 				(font
@@ -6829,7 +6298,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 392.43 33.528 90)
 			(effects
 				(font
@@ -7101,7 +6570,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 160.02 37.338 90)
 			(effects
 				(font
@@ -7381,7 +6850,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 396.24 52.07 0)
+		(at 401.32 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7390,7 +6859,7 @@
 		(fields_autoplaced yes)
 		(uuid "da4b2981-c0cb-4bb2-8c96-a5ec87b4a92a")
 		(property "Reference" "#PWR017"
-			(at 396.24 58.42 0)
+			(at 401.32 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7399,7 +6868,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 396.24 57.15 0)
+			(at 401.32 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7407,7 +6876,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 396.24 52.07 0)
+			(at 401.32 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7416,7 +6885,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 396.24 52.07 0)
+			(at 401.32 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7425,7 +6894,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 396.24 52.07 0)
+			(at 401.32 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7717,74 +7186,6 @@
 			(project "audiocardio"
 				(path "/b4dc04d8-d03c-4561-9ffc-1b5a0705847e"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 143.51 100.33 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6290234-7b5c-4df8-bbb8-f86c35191243")
-		(property "Reference" "R10"
-			(at 143.51 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3k"
-			(at 143.51 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 143.51 102.108 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 143.51 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "66566784-c21c-4c9a-9d61-4c68296123b1")
-		)
-		(pin "1"
-			(uuid "566c3552-f951-4a26-8839-220f463b5f64")
-		)
-		(instances
-			(project "audiocardio"
-				(path "/b4dc04d8-d03c-4561-9ffc-1b5a0705847e"
-					(reference "R10")
 					(unit 1)
 				)
 			)
